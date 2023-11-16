@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+     
+    .mainText{
+        padding: 2%;
+        hr {
+            width: 50%;
+            height: 1px;
+            background-color: hsl(0, 0%, 98%);
+
+            }
+    }
+
+    
+}
+

@@ -1,0 +1,41 @@
+
+nav{
+    display: flex;
+    flex: 0 70%;
+    justify-content: center;
+
+    ul{
+        display:flex;
+        flex: 1 100%;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        align-items: center;
+
+
+            li{
+                margin: 0 2%;
+                list-style-type: none;
+                text-transform: uppercase;
+                color:  hsl(273, 4%, 51%);
+                cursor: pointer;
+                font-family: "Karla";
+
+               
+            }
+            .liViewPlans{
+                padding: 2% 4%;
+                color:  hsl(270, 9%, 17%);
+                border: 2px solid  hsl(270, 9%, 17%);
+
+            }
+            .liViewPlans:hover{
+                background-color: hsl(270, 9%, 17%);
+                color: hsl(0, 0%, 98%);
+
+            }
+
+            li:hover{
+                color: hsl(270, 9%, 17%);
+            }
+    }
+}
