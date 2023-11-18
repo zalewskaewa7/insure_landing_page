@@ -1,0 +1,33 @@
+.componentFindHowWeWork{
+    margin: 2% 11%;
+    display:flex;
+    flex-flow: row wrap;
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    padding: 3%;
+    align-items: center;
+    justify-content: space-around;
+    position:reltive;
+
+    h2{
+        font-size: 3.5rem;
+        font-family: "DMSerif";
+        flex: 0 60%;
+        line-height: 1;
+        padding: 3%;
+
+    }
+    button{
+        text-transform: uppercase;
+        background-color: hsl(256, 26%, 20%);
+
+        border: 1px solid hsl(0, 0%, 98%);
+        color: hsl(0, 0%, 98%);
+        padding: 1% 2%;
+
+    }
+    img{
+        position:absolute;
+        right: 11%;
+    }
+}

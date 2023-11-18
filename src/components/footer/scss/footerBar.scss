@@ -1,0 +1,36 @@
+.footerBar{
+    display: flex;
+    flex: 1 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        flex: 0 10%;
+    }
+    .icons{
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 30%;
+        justify-content: flex-end;
+        padding: 3% 0;
+
+        li{
+            list-style-type: none;
+            margin: 0 2%;
+        }
+        li:hover{
+            filter: invert(11%) sepia(12%) saturate(778%) hue-rotate(227deg) brightness(99%) contrast(88%);       
+            filter: invert(11%) sepia(5%) saturate(6538%) hue-rotate(215deg) brightness(99%) contrast(86%);
+            filter: invert(17%) sepia(17%) saturate(1539%) hue-rotate(215deg) brightness(94%) contrast(90%);
+            filter: invert(14%) sepia(20%) saturate(1111%) hue-rotate(217deg) brightness(89%) contrast(92%);
+            filter: invert(2%) sepia(88%) saturate(3171%) hue-rotate(212deg) brightness(114%) contrast(99%);
+         }
+    }
+    hr {
+        width: 15%;
+        height: 0.5px;
+        background-color: hsl(255, 22.2%, 78%);
+        color:hsl(255, 19%, 35%);
+        border: 0.1px solid hsl(255, 22.2%, 78%);
+        flex: 1 100%;
+        }}

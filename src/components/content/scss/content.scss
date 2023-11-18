@@ -1,19 +1,76 @@
 main{
-    display: flex;
-    justify-content: center;
-    background-color: hsl(256, 26%, 20%);
-    color: hsl(0, 0%, 98%);
+    
+     .mainInformation{
+        padding: 4% 2% 2% 8%; 
+        display: flex;
+        justify-content: flex-start;
+        background-color: hsl(256, 26%, 20%);
+        color: hsl(0, 0%, 98%);
+        font-family: "Karla";
      
     .mainText{
-        padding: 2%;
+        padding: 2% 0 4% 4%;
+        margin: 2% 0;
+        flex: 0 40%;
         hr {
-            width: 50%;
+            width: 30%;
             height: 1px;
             background-color: hsl(0, 0%, 98%);
 
             }
+
+            h1{
+                margin: 6% 0 0 0;
+                padding:6% 0;
+                font-size: 4.1rem;
+                font-family: "DMSerif";
+                width: 90%;
+                line-height: 1;
+            }
+            p{
+                line-height: 1.5;
+            }
+            button{
+                margin: 6% 0 0 0;
+                padding: 2% 4%;
+                text-transform: uppercase;
+                border: 1px solid hsl(0, 0%, 98%); 
+                background-color: hsl(256, 26%, 20%);
+                color: hsl(0, 0%, 98%);
+
+            }
+            button:hover{
+                color: hsl(256, 26%, 20%);
+                background-color: hsl(0, 0%, 98%);
+
+            }
+    }
+
+    .mainPhoto{
+        position: absolute;
+        justify-self: flex-end;
+        margin: 4% 6% 6% 0;
+        width: 41%;
+        height: auto;
+        right: 4%;
+    }
+    .leftPattern{
+        position:absolute;
+        left: 0;
+        top: 77%;
+        width: 10%;
+        height: auto;
+    }
+    .rightPattern{
+        position:absolute;
+        right: 0;
+        top: 11%;
+        width: 28%;
+        height: auto;
     }
 
     
 }
+}
 
+@media all and (max-width:  375px)  {}

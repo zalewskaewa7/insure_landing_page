@@ -17,3 +17,16 @@ code {
    url("./components/fonts/Karla/static/Karla-Bold.ttf") format("truetype");
   
  }
+ font-face {
+  font-family: "KarlaLight";
+  src: local("KarlaLight"),
+   url("./components/fonts/Karla/static/Karla-Light.ttf") format("truetype");
+  
+ }
+
+ @font-face {
+  font-family: "DMSerif";
+  src: local("DMSerif"),
+   url("./components/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf") format("truetype");
+  
+ }
