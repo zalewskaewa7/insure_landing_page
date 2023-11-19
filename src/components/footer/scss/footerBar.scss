@@ -17,13 +17,10 @@
         li{
             list-style-type: none;
             margin: 0 2%;
+            cursor: pointer;
         }
         li:hover{
-            filter: invert(11%) sepia(12%) saturate(778%) hue-rotate(227deg) brightness(99%) contrast(88%);       
-            filter: invert(11%) sepia(5%) saturate(6538%) hue-rotate(215deg) brightness(99%) contrast(86%);
-            filter: invert(17%) sepia(17%) saturate(1539%) hue-rotate(215deg) brightness(94%) contrast(90%);
-            filter: invert(14%) sepia(20%) saturate(1111%) hue-rotate(217deg) brightness(89%) contrast(92%);
-            filter: invert(2%) sepia(88%) saturate(3171%) hue-rotate(212deg) brightness(114%) contrast(99%);
+            filter: invert(2%) sepia(88%) saturate(1171%) hue-rotate(212deg) brightness(34%) contrast(99%);
          }
     }
     hr {

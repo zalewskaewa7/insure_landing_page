@@ -39,3 +39,13 @@ nav{
             }
     }
 }
+
+@media all and (max-width:  375px)  {
+nav{
+    justify-content: flex-end;
+
+    ul{display: none;
+    }
+}
+
+}

@@ -1,0 +1,30 @@
+ol{
+    display: flex;
+        flex-flow: row wrap;
+        justify-content:flex-start;
+        font-family: "Karla";
+
+        li{
+            flex: 0 15%;
+            list-style-type: none;
+            margin: 4% 10% 0 0;
+            cursor: pointer;
+            text-transform: uppercase;
+            color:  hsl(273, 4%, 51%);
+            z-index: 1;
+
+
+            ul{
+                margin: 20% 0;
+
+                li{
+                    color:  hsl(270, 9%, 17%);
+                    line-height: 1.5em;
+                }
+                li:hover{
+                    text-decoration: underline;
+                }
+            }
+
+        }
+}
