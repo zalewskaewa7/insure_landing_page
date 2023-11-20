@@ -9,6 +9,22 @@ footer{
         top: 0%;
         left: 0;
         z-index: 0;
+
     }
     
+}
+
+@media all and (max-width:  375px)  {
+    footer{
+        .patternFooter{
+            display:none;
+        }
+        .patternFooterMobile{
+            display: block;
+            position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: 0;
+        }
+    }
 }

@@ -33,10 +33,48 @@
         color: hsl(256, 26%, 20%);
 
     }
-    img{
+    .rightPattern{
         position:absolute;
         right: 11%;
         object-fit: fill;
         z-index: 0;
     }
+    .rightPatternMobile{
+        display:none;
+    }
+}
+
+@media all and (max-width:  375px)  {
+    .componentFindHowWeWork{
+        margin: 5% 3%;
+        padding: 15% 5%;
+        justify-content: center;
+
+        .rightPattern{
+            display:none;
+
+            
+        }
+        .rightPatternMobile{
+            display:block;
+            position:absolute;
+            right: 4%;
+            object-fit: fill;
+            z-index: 0;
+            object-fit: contain;
+        }
+        h2{
+            font-size: 2.7rem;
+            flex: 1 100%;
+            text-align: center;
+        }
+        button{
+            margin: 10% 0;
+            padding: 2% 4%;
+            font-size: 1.2rem;
+
+        }
+    }
+
+
 }

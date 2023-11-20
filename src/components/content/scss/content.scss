@@ -7,6 +7,10 @@ main{
         background-color: hsl(256, 26%, 20%);
         color: hsl(0, 0%, 98%);
         font-family: "Karla";
+        
+        .mainPhotoMobile{
+            display:none;
+        }
      
     .mainText{
         padding: 2% 0 4% 4%;
@@ -54,6 +58,8 @@ main{
         height: auto;
         right: 4%;
     }
+    
+
     .leftPattern{
         position:absolute;
         left: 0;
@@ -68,9 +74,93 @@ main{
         width: 28%;
         height: auto;
     }
+    .leftPatternMobile{
+        display: none;
+    }
+    .rightPatternMobile{
+        display: none;
+    }
 
     
 }
 }
 
-@media all and (max-width:  375px)  {}
+@media all and (max-width:  375px)  {
+
+    main{
+        .mainInformation{
+            padding: 0;
+            display:flex;
+            flex-flow: row wrap;
+            .mainPhoto{
+                display: none;
+                
+                
+            }
+            .mainPhotoMobile{
+                display:flex;
+            }
+            .mainText{
+                display: flex;
+                flex-flow: row wrap;
+                position:relative;
+                justify-content: center;
+                padding: 2% 0 4% 4%;
+                margin: 2% 0;
+                flex: 0 100%;
+                text-align: center;
+
+                
+                hr{
+                    display:none;
+                }
+                h1{
+                    margin: 6% 0 0 0;
+                    padding:6% 3%;
+                    font-size: 3.1rem;
+                    font-family: "DMSerif";
+                    width: 90%;
+                    line-height: 1;
+                }
+                p{
+                    line-height: 1.5;
+                    
+
+                }
+                button{
+                    margin: 6% 0 0 0;
+                    padding: 2% 4%;
+                    text-transform: uppercase;
+                    border: 1px solid hsl(0, 0%, 98%); 
+                    background-color: hsl(256, 26%, 20%);
+                    color: hsl(0, 0%, 98%);
+    
+                }
+            }
+            .leftPattern{
+                display:none;
+                
+            }
+            .rightPattern{
+                display: none;
+                
+            }
+            .leftPatternMobile{
+                display: block;
+                position:absolute;
+                left: 0;
+                top: 61%;
+                width: 50%;
+            }
+            .rightPatternMobile{
+                display: block;
+                position:absolute;
+                right: 0;
+                top: 98%;
+                width: 28%;
+                height: auto;
+            }
+        
+    }
+}
+}

@@ -5,7 +5,7 @@ import hamburgerIcon from "../images/icon-hamburger.svg"
 function navigation() {
   return (
     <nav>
-        <img src={hamburgerIcon} alt={"hamburger icon"}/>
+        <img  className="hamburgerIcon" src={hamburgerIcon} alt={"hamburger icon"}/>
         <ul>
             <li>How we work</li>
             <li>Blog</li>

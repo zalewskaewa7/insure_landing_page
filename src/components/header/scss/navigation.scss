@@ -3,6 +3,10 @@ nav{
     flex: 0 70%;
     justify-content: center;
 
+    .hamburgerIcon{
+        display:none;
+    }
+
     ul{
         display:flex;
         flex: 1 100%;
@@ -43,7 +47,10 @@ nav{
 @media all and (max-width:  375px)  {
 nav{
     justify-content: flex-end;
-
+    .hamburgerIcon{
+        display:block;
+        cursor: pointer;
+    }
     ul{display: none;
     }
 }
