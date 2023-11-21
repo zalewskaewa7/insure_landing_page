@@ -1,0 +1,50 @@
+.mobileMenuComponent{
+    display:none;
+}
+@media all and (max-width:  375px)  {
+
+.mobileMenuComponent{
+    display: flex;
+    flex: 1 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    position:absolute;
+    padding: 0 2% 10% 2%;
+    right: 0;
+    top:5%;
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    z-index: 4;
+    
+    
+    .mobileMenu{
+        margin: 5% 5% 10% 5%;
+        display: flex;
+        flex: 1 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+
+
+    li{
+        flex: 1 100%;
+        text-align: center;
+        color: hsl(0, 0%, 98%);
+        font-size: 1.5rem;
+        padding: 5% 0;
+
+    }
+    .liView{
+        color: hsl(0, 0%, 98%);
+        border: 2px solid   hsl(0, 0%, 98%);
+        padding: 2% 4%;
+        margin: 0 10%;
+
+    }
+
+    img{
+        margin: 10% 0;
+    }
+}
+}

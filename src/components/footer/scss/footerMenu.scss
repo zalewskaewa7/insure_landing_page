@@ -1,5 +1,5 @@
 ol{
-    display: flex;
+        display: flex;
         flex-flow: row wrap;
         justify-content:flex-start;
         font-family: "Karla";
@@ -27,4 +27,24 @@ ol{
             }
 
         }
+}
+
+@media all and (max-width:  375px)  {
+    ol{
+        justify-content: center;
+
+        li{
+            flex: 1 100%;
+            text-align: center;
+            margin: 10%;
+
+            ul{
+                margin: 7% 0;
+            }
+
+
+        }
+    }
+   
+
 }

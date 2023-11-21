@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './logo';
-import Navigation from './navigation';
+import Navigation from './Navigation.js';
 import './scss/header.scss';
 
 function Header() {

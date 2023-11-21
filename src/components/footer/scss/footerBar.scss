@@ -31,3 +31,25 @@
         border: 0.1px solid hsl(255, 22.2%, 78%);
         flex: 1 100%;
         }}
+
+
+        @media all and (max-width:  375px)  {
+
+            .footerBar{
+                justify-content: center;
+                padding: 10% 0;
+
+                 img{
+                margin: 5% 0 ;
+                flex: 0 10%;
+            }
+            .icons{
+                margin: 5%;
+                flex: 1 100%;
+                justify-content: center;
+                z-index: 1;
+            }
+            }
+           
+
+        }
