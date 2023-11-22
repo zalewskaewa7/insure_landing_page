@@ -6,7 +6,7 @@ To completed this project I use React app and sass css. You can see it on deskto
 - Here is design for desktop from Frontend Mentor:
 ![Design desktop for the sunnyside agency coding challenge](./public/desktop-design.jpg)
 - This is my screenshot:
-![Design desktop for the sunnyside agency component coding challenge](./public/images/Screenshot_desktop.jpg.png)
+![Design desktop for the sunnyside agency component coding challenge](./public/Screenshot_desktop.jpg.png)
 
 All challenge on Gthub pages: https://zalewskaewa7.github.io/insure_landing_page
 
