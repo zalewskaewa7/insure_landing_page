@@ -4,7 +4,7 @@
 To completed this project I use React app and sass css. You can see it on desktop width 1440px and for mobile 375px.
 
 - Here is design for desktop from Frontend Mentor:
-![Design desktop for the sunnyside agency coding challenge](./desktop-design.jpg)
+![Design desktop for the sunnyside agency coding challenge](./public/desktop-design.jpg)
 - This is my screenshot:
 ![Design desktop for the sunnyside agency component coding challenge](./public/images/Screenshot_desktop.jpg.png)
 
